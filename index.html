@@ -99,6 +99,21 @@
     li{
       margin-bottom:8px;
     }
+
+    /* >>> AJUSTE PARA BOTÃO + IMAGEM <<< */
+    .cta-row{
+      display:flex;
+      align-items:center;
+      gap:20px;
+      flex-wrap:wrap;
+      margin-top:16px;
+    }
+    .cta-row img{
+      max-width:220px;
+      width:100%;
+      filter:drop-shadow(0 14px 18px rgba(0,0,0,0.15));
+    }
+
     footer{
       margin-top:30px;
       background:#ffffff;
@@ -155,9 +170,14 @@
         <li>GMP certified and GMO free</li>
       </ul>
 
-      <a class="cta" href="https://prodentim24.com/text.php#aff=LorenaRocha" target="_blank" rel="noopener noreferrer">
-        Click here to get your product!
-      </a>
+      <!-- BOTÃO + NOVA IMAGEM -->
+      <div class="cta-row">
+        <a class="cta" href="https://prodentim24.com/text.php#aff=LorenaRocha" target="_blank" rel="noopener noreferrer">
+          Click here to get your product!
+        </a>
+
+        <img src="prodentim-strawberry.png" alt="ProDentim product with strawberries">
+      </div>
     </section>
 
     <!-- FOOTER -->
@@ -172,5 +192,3 @@ Copyright © 2026 ProDentim | All Rights Reserved
   </div>
 </body>
 </html>
-
-
